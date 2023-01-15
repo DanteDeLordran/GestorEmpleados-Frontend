@@ -1,27 +1,34 @@
-# GestorEmpleadosFrontend
+<h1>Employee manager</h1>
+<h2>Frontend side using : </h2>
+<ul>
+    <li>Angular</li>
+    <li>DaisyUI</li>
+</ul>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.1.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<p>Steps to correctly implement DaisyUI to Angular project</p>
+<ol>
+    <li>Install TailwindCSS by 'npm i tailwindcss -D'</li>
+    <li>Execute 'npx tailwindcss init'</li>
+    <li>Copy the tailwind.config.js config like <a>https://tailwindcss.com/docs/installation</a></li>
+    <li>Add '@tailwind base;' '@tailwind components;' '@tailwind utilities;' to the styles.css file on the root project file</li>
+    <li>Add 'plugins: [require("daisyui")]' to the </li>
+    <li>Add global styles at 'tailwind.config.js' by adding 'daisyui: {
+    themes: [
+      {
+        mytheme: {
+          "primary": "{{your choice colors}}",
+          "secondary": "",
+          "accent": "",
+          "neutral": "",
+          "base-100": "",
+          "info": "",
+          "success": "",
+          "warning": "",
+          "error": "",
+        },
+      },
+    ],
+  },'</li>
+    <li>Create and watch your global styles preview at <a>https://daisyui.com/theme-generator/</a></li>
+    <li>Enjoy the DaisyUI styles and material</li>
+</ol>
