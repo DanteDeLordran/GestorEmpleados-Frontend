@@ -4,6 +4,7 @@ import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { ListaEmpleadosComponent } from './lista-empleados/lista-empleados.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -12,6 +13,7 @@ import { ListaEmpleadosComponent } from './lista-empleados/lista-empleados.compo
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     RouterModule.forRoot([
       {
         path: ''

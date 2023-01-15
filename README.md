@@ -9,7 +9,7 @@
 <ol>
     <li>Install TailwindCSS by 'npm i tailwindcss -D'</li>
     <li>Execute 'npx tailwindcss init'</li>
-    <li>Copy the tailwind.config.js config like <a>https://tailwindcss.com/docs/installation</a></li>
+    <li>Copy the tailwind.config.js config like : https://tailwindcss.com/docs/installation</li>
     <li>Add '@tailwind base;' '@tailwind components;' '@tailwind utilities;' to the styles.css file on the root project file</li>
     <li>Add 'plugins: [require("daisyui")]' to the 'tailwind.config.js'</li>
     <li>Add global styles at 'tailwind.config.js' by adding 'daisyui: {
@@ -29,7 +29,7 @@
       },
     ],
   },'</li>
-    <li>Create and watch your global styles preview at <a>https://daisyui.com/theme-generator/</a></li>
+    <li>Create and watch your global styles preview at : https://daisyui.com/theme-generator/</li>
     <li>For premade themes visit : https://daisyui.com/docs/themes/</li>
     <li>Enjoy the DaisyUI styles and material</li>
 </ol>

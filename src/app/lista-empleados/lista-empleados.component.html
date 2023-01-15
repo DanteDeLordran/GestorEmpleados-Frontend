@@ -1,1 +1,24 @@
-<p>lista-empleados works!</p>
+
+<h2>Lista de empleados</h2>
+
+<div class="overflow-x-auto">
+    <table class="table table-zebra w-full">
+      <!-- head -->
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Nombre</th>
+          <th>Apellido</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let empleado of empleados" class="hover">
+          <th>{{empleado.idEmpleado}}</th>
+          <td>{{empleado.nombreEmpleado}}</td>
+          <td>{{empleado.apellidoEmpleado}}</td>
+          <td>{{empleado.emailEmpleado}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
