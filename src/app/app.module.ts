@@ -5,11 +5,13 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { ListaEmpleadosComponent } from './lista-empleados/lista-empleados.component';
 import { HttpClientModule } from '@angular/common/http';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ListaEmpleadosComponent
+    ListaEmpleadosComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
