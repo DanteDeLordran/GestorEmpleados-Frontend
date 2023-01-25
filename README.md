@@ -2,6 +2,7 @@
 <h2>Frontend side using : </h2>
 <ul>
     <li>Angular</li>
+    <li>TailwindCSS</li>
     <li>DaisyUI</li>
 </ul>
 

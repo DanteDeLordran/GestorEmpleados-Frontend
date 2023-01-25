@@ -18,7 +18,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     HttpClientModule,
     RouterModule.forRoot([
       {
-        path: ''
+        path: 'empleados',
+        component : ListaEmpleadosComponent
       }
     ])
   ],
