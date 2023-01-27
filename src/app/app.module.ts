@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { ListaEmpleadosComponent } from './lista-empleados/lista-empleados.component';
 import { HttpClientModule } from '@angular/common/http';
 import { NavbarComponent } from './navbar/navbar.component';
+import { RegistrarEmpleadosComponent } from './registrar-empleados/registrar-empleados.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ListaEmpleadosComponent,
-    NavbarComponent
+    NavbarComponent,
+    RegistrarEmpleadosComponent
   ],
   imports: [
     BrowserModule,
@@ -20,6 +22,10 @@ import { NavbarComponent } from './navbar/navbar.component';
       {
         path: 'empleados',
         component : ListaEmpleadosComponent
+      },
+      {
+        path : 'registrar',
+        component : RegistrarEmpleadosComponent
       }
     ])
   ],
