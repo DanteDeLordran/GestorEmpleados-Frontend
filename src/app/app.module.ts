@@ -7,6 +7,7 @@ import { ListaEmpleadosComponent } from './lista-empleados/lista-empleados.compo
 import { HttpClientModule } from '@angular/common/http';
 import { NavbarComponent } from './navbar/navbar.component';
 import { RegistrarEmpleadosComponent } from './registrar-empleados/registrar-empleados.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { RegistrarEmpleadosComponent } from './registrar-empleados/registrar-emp
         path : 'registrar',
         component : RegistrarEmpleadosComponent
       }
-    ])
+    ]),
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
